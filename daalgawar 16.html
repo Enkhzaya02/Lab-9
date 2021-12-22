@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lab9</title>
+        <script type="text/javascript">
+           var number1;
+           var number2;
+           var number3;
+           var posCount=0;
+           var negCount=0;
+           var zerCount=0;
+
+           number1 = window.prompt("Эхний тоог оруулна уу?");
+           number2 = window.prompt("Хоёр дахь тоог оруулна уу?");
+           number3 = window.prompt("Гурав дахь тоог оруулна уу?");
+           
+
+           number1= parseInt(number1);
+           number2= parseInt(number2);
+           number3= parseInt(number3);
+
+           if(number1>0){
+           posCount++;
+           }else{
+           negCount++;
+           }
+           if(number2>0){
+           posCount++;
+           }else{
+           negCount++;
+           }
+           if(number3>0){
+           posCount++;
+           }else{
+           negCount++;
+           }
+           if(number1==0){
+           zerCount++;
+           }
+           if(number2==0){
+           zerCount++;
+           }
+           if(number3==0){
+           zerCount++;
+           }
+           document.writeln("<h1>Эерэг тоо нь: "+posCount+".</h1>");
+           document.writeln("<h1>Сөрөг тоо нь: "+negCount+".</h1>");
+           document.writeln("<h1>Тэгтэй тэнцүү нь: "+zerCount+".</h1>");
+
+
+            
+        </script>
+    </head>
+
+    <body></body>
+</html>

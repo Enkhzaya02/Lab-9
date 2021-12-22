@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lab9</title>
+        <script type="text/javascript">
+           var number1;
+           var number2;
+           var number3;
+           var number4;
+           var number5;
+
+           number1 = window.prompt("Эхний тоог оруулна уу?");
+           number2 = window.prompt("Хоёр дахь тоог оруулна уу?");
+           number3 = window.prompt("Гурав дахь тоог оруулна уу?");
+           number4 = window.prompt("Дөрөв дахь тоог оруулна уу?");
+           number5 = window.prompt("Тав дахь тоог оруулна уу?");
+
+
+           number1= parseInt(number1);
+           number2= parseInt(number2);
+           number3= parseInt(number3);
+           number4= parseInt(number4);
+           number5= parseInt(number5);
+           
+
+           if (number1 > number2 && number1 > number3 && number1 > number4 && number1 > number5) {
+           document.writeln("<h1>Хамгийн их нь: " +number1+".</h1>");
+           }
+           if (number2 > number1 && number2 > number3 && number2 > number4 && number2 > number5) {
+            document.writeln("<h1>Хамгийн их нь: " +number2+".</h1>");
+           }
+           if (number3 > number1 && number3 > number2 && number3 > number4 && number3 > number5) {
+            document.writeln("<h1>Хамгийн их нь: " +number3+".</h1>");
+           }
+           if (number4 > number1 && number4 > number2 && number4 > number3 && number4 > number5) {
+            document.writeln("<h1>Хамгийн их нь: " +number4+".</h1>");
+           }
+           if (number5 > number1 && number5 > number2 && number5 > number3 && number5 > number4) {
+            document.writeln("<h1>Хамгийн их нь: " +number5+".</h1>");
+          }
+        </script>
+    </head>
+
+    <body></body>
+</html>
